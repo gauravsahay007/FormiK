@@ -26,7 +26,7 @@ const CustomTab: React.FC<TabProps> = ({ children, ...props }) => {
 
 const HomeLayout = () => {
   const [activeTabIndex, setActiveTabIndex] = useState(0); 
-  const {state,setState} = useData();
+  const {state}:any= useData();
   useEffect(()=>{
     setActiveTabIndex(state.tab.currentTab)
   },[state.tab])

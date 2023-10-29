@@ -41,7 +41,7 @@ const JobDetailsForm: React.FC = () => {
       }));
     }
 
-    const {setState} = useData();
+    const {setState}:any = useData();
     const [reloadagain,setReloadAgain] = useState(true);
     const [number, setNumber]  = useState(0);
 

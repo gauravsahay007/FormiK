@@ -36,7 +36,7 @@ const KeyValue: React.FC<{
 };
 
 const PreviewCard: React.FC = () => {
-  const {state,setState} = useData();
+  const {state,setState}:any = useData();
   useEffect(()=>{
     // console.log(state);
   },[state])
