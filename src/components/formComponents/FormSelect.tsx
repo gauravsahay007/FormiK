@@ -88,7 +88,6 @@ const FormSelect: React.FC<IFormSelectProps> = ({
             ...base,
             fontSize: ".875rem",
             fontWeight: "500",
-            marginLeft:"200px"
           }),
         }}
         {...selectProps}
