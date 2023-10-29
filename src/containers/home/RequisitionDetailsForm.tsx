@@ -78,7 +78,7 @@ const RequisitionDetailsForm: React.FC = () => {
     // console.log(state);
     },[values,reloadagain])
 
-  const {state,setState} = useData();
+  const {setState} = useData();
 
   return (
     <Box width="100%" as="form" onSubmit={handleSubmit as any}>

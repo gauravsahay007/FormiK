@@ -46,7 +46,7 @@ const InterviewDetailsForm: React.FC = () => {
     }));
   }
 
-  const {state,setState} = useData();
+  const {setState} = useData();
   const [reloadagain,setReloadAgain] = useState(true);
   const [number, setNumber]  = useState(0);
 
